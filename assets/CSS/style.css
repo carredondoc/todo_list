@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgb(51, 122, 150), rgb(28, 22, 49));
+  padding: 5px;
+}
+
+.todoList {
+  width: 100%;
+  max-width: 850px;
+  background: rgb(235, 235, 235);
+  margin: 150px auto 20px;
+  padding: 4px 30px 40px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+h2 {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.agregar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(211, 211, 211);
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 30px;
+  background: rgb(68, 34, 160);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+
+
+.contenido{
+
+  display: flex;
+
+}
+
+
+.totales{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+
+}
+
+.totales p{
+
+margin-bottom: 25px;
+font-weight: bold;
+
+
+}
+
+.datos{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+  border-left: solid black 3px;
+  padding-left: 30px;
+
+}
+
+.titulos{
+
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  padding-top: 25px;
+
+}
+
+.titulos p{
+
+  font-weight: bold;
+  font-size: 20px;
+}
+.tituloTarea{
+
+
+  margin-left: 50px;
+}
+.tareas{
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+
+.tarea{
+
+  display: flex;
+}
+
+.tarea p{
+
+  margin-bottom: 20px;
+}
+
+.detalleTarea{
+
+margin-left: 50px;
+}
+
+img {
+
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 25px;
+ 
+}
+
+.circulo{
+
+  position: absolute;
+  left: 480px;
+  cursor: pointer;
+
+}
+
+.eliminar{
+
+  position: absolute;
+  left: 520px;
+  cursor: pointer;
+}
+
+.tachado {
+  text-decoration: line-through;
+  text-decoration-thickness: 0.4rem;
+}
+
+/* .datos {
+  display: flex;
+}
+
+.totalRealizadas {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalRealizadas p {
+  margin-bottom: 20px;
+}
+
+.id {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.idTarea p {
+  margin-left: 50px;
+}
+
+.tarea {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 12px;
+  padding: 12px 8px 12px 0px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+#listadoTareas li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url(../Images/circulo.jpg);
+  background-size: cover;
+  background-position: center;
+  top: 6px;
+  left: 200px;
+}
+#listadoTareas li::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-image: url(../Images/eliminar.png);
+  background-size: cover;
+  background-position: center;
+  top: 6px;
+  left: 250px;
+}
+
+#listadoTareas .seleccionado{
+
+    color: rgb(165, 42, 138);
+    text-decoration: line-through;
+}
+
+#listadoTareas .seleccionado::before{
+
+    background-image: url(../Images/check.png);
+
+
+}
+ */

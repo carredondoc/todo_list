@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="todoList">
+        <h2>To-Do List</h2>
+        <hr />
+
+        <div class="nuevaTarea">
+          <h3>Nueva Tarea</h3>
+          <div class="agregar">
+            <input
+              type="text"
+              id="inputTexto"
+              placeholder="Agrega tu nueva tarea."
+            />
+            <button class="enviar" onclick="agregarTarea()">Agregar</button>
+          </div>
+        </div>
+
+        <div class="contenido">
+          <div class="totales">
+            <p>Total: <span class="totalTareas">0</span></p>
+            <p>Realizadas: <span class="totalRealizadas">0</span></p>
+          </div>
+
+          <div class="datos">
+            <div class="titulos">
+              <p>ID</p>
+              <p class="tituloTarea">Tarea</p>
+            </div>
+
+            <div class="tareas">
+
+
+              <div class="tarea">
+                <p>01</p>
+                <p class="detalleTarea">Texto dummy 01 de prueba</p>
+                <img src="./assets/Images/circulo.png" class="circulo" />
+                <img src="./assets/Images/eliminar.png" class="eliminar" id="delete-${elementoListado.id}"/>
+              </div>
+
+              <div class="tarea">
+                <p>02</p>
+                <p class="detalleTarea">Texto dummy 02 de prueba</p>
+                <img src="./assets/Images/circulo.png" class="circulo" />
+                <img src="./assets/Images/eliminar.png" class="eliminar" id="delete-${elementoListado.id}"/>
+              </div>
+
+              <div class="tarea">
+                <p>03</p>
+                <p class="detalleTarea">Texto dummy 03 de prueba</p>
+                <img src="./assets/Images/circulo.png" class="circulo" />
+                <img src="./assets/Images/eliminar.png" class="eliminar" id="delete-${elementoListado.id}"/>
+              </div>
+              
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/JavaScript/main.js"></script>
+  </body>
+</html>
